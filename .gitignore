@@ -1,0 +1,20 @@
+# Python bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments & secrets
+venv/
+env/
+.env/
+
+# Editor settings (personal, not project)
+.vscode/
+.idea/
+
+# OS junk files
+Thumbs.db
+.DS_Store
+
+# Jupyter (if you ever use notebooks)
+.ipynb_checkpoints/

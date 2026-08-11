@@ -1,33 +1,32 @@
-# Python Foundation Lab
+# python-foundations
 
-A set of beginner Python programs covering core concepts.
+Structured Python concept implementations — control flow, data
+structures, OOP, file handling — plus small console projects that
+demonstrate each topic in practice. Pure standard library, zero
+dependencies.
 
-##  Contents
+## Modules
 
-| File | Purpose |
-|------|---------|
-| `age_checker.py` | Checks if user is minor or adult |
-| `even_odd.py` | Checks if a number is even or odd |
-| `list_sum.py` | Sums all numbers in a list |
-| `simple_login.py` | Basic login with username & password |
+| Module | Covers |
+|--------|--------|
+| `control_flow/` | conditionals, comparisons, branching |
+| `data_structures/` | lists, dicts, sets, tuples |
+| `oop/` | classes, inheritance, polymorphism |
+| `file_io/` | read/write, JSON |
+| `projects/` | console apps combining multiple concepts |
 
-##  Usage
+## Highlights
 
-```bash
-python age_checker.py
-python even_odd.py
-python list_sum.py
-python simple_login.py
-```
+- `projects/simple_login.py` — CLI auth system: signup with
+  validation, login with max-attempt lockout
 
+## Roadmap
 
-##  Concept Practice
+Planned growth of this repo → [docs/ROADMAP.md](docs/ROADMAP.md)
 
-- Conditional statements (if / elif / else)
-- Loops and iteration
-- List manipulation
-- User input and validation
-- Basic string compariso
+## Requirements
+
+Python 3.10+ · no external packages
 
 ## Author
 
